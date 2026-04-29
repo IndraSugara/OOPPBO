@@ -40,10 +40,10 @@ class Passenger {
 private:
     string name;
     int age;
-    enum gender {L||l, P||p};
+    enum gender {L , P};
 
 public:
-    Passenger(string passengerName, int passengerAge, enum passengerGender {L||l, P||p}) {
+    Passenger(string passengerName, int passengerAge, enum passengerGender {L, P}) {
         name = passengerName;
         age = passengerAge;
         gender = passengerGender;

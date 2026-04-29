@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../cpp"
+		}
+	],
+	"settings": {
+		"terminal.integrated.fontSize": 14,
+		"clang-format.executable": "/absolute/path/to/clang-format"
+	}
+}

@@ -11,7 +11,7 @@ void predict (int A, int B, int C, int D){
             makan += makanA;
             A -= makanA;
         }
-        if (makan < 3 && B > 0 && A == 0) {
+        else if (makan < 3 && B > 0 && A == 0) {
             int makanB = min(3 - makan, B);
             makan += makanB;
             B -= makanB;
@@ -21,7 +21,7 @@ void predict (int A, int B, int C, int D){
             makan += makanC;
             C -= makanC;
         }
-        if (makan < 3 && D > 0 && C == 0) {
+        else if (makan < 3 && D > 0 && C == 0) {
             int makanD = min(3 - makan, D);
             makan += makanD;
             D -= makanD;
@@ -49,5 +49,5 @@ int main() {
 
 predict(A,B,C,D);
 
-    return 0;
+    return 100;
 }

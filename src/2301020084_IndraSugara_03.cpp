@@ -18,7 +18,10 @@ class Persegi{
         float get_volume_balok(float T_Balok){
             return panjang*lebar*T_Balok;
         }
-
+        ~Persegi(){
+			panjang = 0;
+			lebar = 0;
+		}
 };
 
 int main(){

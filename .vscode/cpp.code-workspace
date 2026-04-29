@@ -1,0 +1,27 @@
+{
+  "folders": [
+	{
+		"path": "../../cpp"
+	},
+	{
+		"path": "../../webdev"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../latihanpy"
+	},
+	{
+		"path": "../../PycharmProjects/pythonProject1"
+	}
+],
+  "settings": {
+    "peacock.color": "#42b883",
+    "liveServer.settings.multiRootWorkspaceName": "webdev",
+    "files.associations": {
+      "iostream": "cpp"
+    },
+    "cSpell.words": ["balok", "Hewan", "lebar", "luas", "panjang", "Persegi"]
+  }
+}
